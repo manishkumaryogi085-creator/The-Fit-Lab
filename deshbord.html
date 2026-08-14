@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Member Dashboard | The Fit Lab</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+header{
+    background:#ff2d2d;
+    padding:20px;
+    text-align:center;
+}
+
+.container{
+    max-width:1100px;
+    margin:30px auto;
+    padding:20px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1f1f1f;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(255,45,45,.3);
+}
+
+.card h2{
+    color:#ff2d2d;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#ddd;
+}
+
+.logout{
+    text-align:center;
+    margin-top:40px;
+}
+
+.logout a{
+    background:#ff2d2d;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:8px;
+    font-size:18px;
+}
+
+.logout a:hover{
+    background:#cc0000;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Welcome to The Fit Lab Dashboard</h1>
+</header>
+
+<div class="container">
+
+<div class="cards">
+
+<div class="card">
+<h2>👤 Member</h2>
+<p>Welcome to The Fit Lab Gym.</p>
+</div>
+
+<div class="card">
+<h2>💳 Membership</h2>
+<p>Premium Plan Active</p>
+</div>
+
+<div class="card">
+<h2>📅 Workout</h2>
+<p>Monday - Chest & Triceps<br>
+Tuesday - Back & Biceps<br>
+Wednesday - Legs<br>
+Thursday - Shoulders<br>
+Friday - Cardio</p>
+</div>
+
+<div class="card">
+<h2>🥗 Diet Plan</h2>
+<p>High Protein Diet<br>
+Eggs, Milk, Fruits, Chicken, Rice</p>
+</div>
+
+</div>
+
+<div class="logout">
+<a href="index.html">🏠 Back to Home</a>
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Fit Lab</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo">
+THE FIT LAB
+</div>
+
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+<nav id="menu">
+
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#plans">Plans</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+<a href="login.html" class="login-btn">Login</a>
+
+</nav>
+
+</header>
+
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h1>THE FIT LAB</h1>
+
+<h3>Train Hard. Stay Strong.</h3>
+
+<p>
+Build Muscle • Lose Fat • Transform Yourself
+</p>
+
+<a href="#plans" class="btn">
+Join 
+</a>
+
+</div>
+
+</section>
+
+
+<!-- यहाँ About Section आएगा -->
+
+<section id="about">
+<div class="container">
+
+<h2>About The Fit Lab</h2>
+
+<p>
+The Fit Lab is a modern fitness gym with premium equipment,
+certified trainers and personalized workout plans.
+We help you build muscle, lose fat and stay healthy.
+</p>
+
+<div class="about-box">
+
+<div class="box">
+<h3>🏋️ Modern Equipment</h3>
+<p>Latest machines for every workout.</p>
+</div>
+
+<div class="box">
+<h3>💪 Personal Training</h3>
+<p>Experienced trainers to guide you.</p>
+</div>
+
+<div class="box">
+<h3>🔥 Fat Loss & Muscle Gain</h3>
+<p>Custom plans for every fitness goal.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+<section id="plans" class="plans">
+<section class="stats">
+    <div class="stat-box">
+        <h2>1000+</h2>
+        <p>Happy Members</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>15+</h2>
+        <p>Expert Trainers</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>5+</h2>
+        <p>Years Experience</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>24/7</h2>
+        <p>Support</p>
+    </div>
+</section>
+<h2>Membership Plans</h2>
+
+<div class="plans-box">
+
+<div class="plan">
+<h3>Basic</h3>
+<h1>₹999</h1>
+<p>Gym Access</p>
+<p>Cardio Area</p>
+<a href="payment.html">
+    <button>Join Now</button>
+</a>
+</div>
+
+<div class="plan">
+<h3>Premium</h3>
+<h1>₹1999</h1>
+<p>Gym + Cardio</p>
+<p>Personal Trainer</p>
+<a href="payment.html">
+    <button>Join Now</button>
+</a>
+</div>
+
+<div class="plan">
+<h3>VIP</h3>
+<h1>₹2999</h1>
+<p>All Premium Features</p>
+<p>Diet Plan</p>
+<a href="payment.html">
+    <button>Join Now</button>
+</a>
+</div>
+<div class="plan">
+<h3>Student</h3>
+<h1>₹999</h1>
+<p>Gym Access</p>
+<p>Basic Workout Plan</p>
+<a href="payment.html">
+    <button>Join Now</button>
+</a>
+</div>
+</div>
+<section id="gallery" class="gallery">
+
+<h2>Gallery</h2>
+
+<div class="gallery-box">
+
+<img src="img/gym1.jpg" alt="Gym">
+<img src="img/gym2.jpg" alt="Gym">
+<img src="img/gym3.jpg" alt="Gym">
+<img src="img/gym4.jpg" alt="Gym">
+<img src="img/gym5.jpg" alt="Gym">
+<img src="img/gym6.jpg" alt="Gym">
+<img src="img/gym7.jpg" alt="Gym">
+<img src="img/gym8.jpg" alt="Gym">
+</div>
+</section>
+<section id="bmi" class="bmi">
+    <h2>BMI Calculator</h2>
+
+    <input type="number" id="weight" placeholder="Weight (kg)">
+    <input type="number" id="height" placeholder="Height (cm)">
+
+    <button onclick="calculateBMI()">Calculate BMI</button>
+
+    <h3 id="result"></h3>
+</section>
+<section id="reviews" class="reviews">
+    <h2>Customer Reviews</h2>
+
+    <div class="review-box">
+        <h3>Rahul Sharma ⭐⭐⭐⭐⭐</h3>
+        <p>"Best gym in the city. Trainers are very supportive."</p>
+    </div>
+
+    <div class="review-box">
+        <h3>Priya Verma ⭐⭐⭐⭐⭐</h3>
+        <p>"Clean environment and excellent workout equipment."</p>
+    </div>
+
+    <div class="review-box">
+        <h3>Aman Singh ⭐⭐⭐⭐☆</h3>
+        <p>"Affordable membership and great fitness experience."</p>
+    </div>
+</section>
+<section id="trainers" class="trainers">
+    <h2>Our Expert Trainers</h2>
+
+    <div class="trainer-container">
+
+        <div class="trainer-card">
+            <img src="img/trainer1.jpg" alt="Trainer">
+            <h3>Rahul Sharma</h3>
+            <p>Strength & Muscle Building Coach</p>
+        </div>
+
+        <div class="trainer-card">
+            <img src="img/trainer2.jpg" alt="Trainer">
+            <h3>Priya Verma</h3>
+            <p>Yoga & Fitness Trainer</p>
+        </div>
+
+        <div class="trainer-card">
+            <img src="img/trainer3.jpg" alt="Trainer">
+            <h3>Aman Singh</h3>
+            <p>Cardio & Weight Loss Expert</p>
+        </div>
+
+    </div>
+</section>
+<section class="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <h3>❓ What are your gym timings?</h3>
+        <p>Our gym is open from 5:00 AM to 10:00 PM every day.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>❓ Do you provide personal trainers?</h3>
+        <p>Yes, certified personal trainers are available for all members.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>❓ Is there a free trial?</h3>
+        <p>Yes, we provide a one-day free trial for new members.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>❓ Do you have separate batches for ladies?</h3>
+        <p>Yes, we have dedicated trainers and batches for ladies.</p>
+    </div>
+
+</section>
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <h3>Our Location</h3>
+
+<iframe
+    src="https://www.google.com/maps?q=80+Feet+Bypass+Niwai+Rajasthan&output=embed"
+    width="100%"
+    height="350"
+    style="border:0; border-radius:10px;"
+    allowfullscreen=""
+    loading="lazy">
+</iframe>
+</section>
+
+
+<a href="https://www.google.com/maps/search/80+Fit+Gym+Niwai+Rajasthan" target="_blank">
+    <button>Open Google Maps</button>
+</a>
+</iframe>
+<div class="social">
+    <a href="#">📘 Facebook</a>
+    <a href="#">📸 Instagram</a>
+    <a href="#">▶ YouTube</a>
+    <a href="#">💬 WhatsApp</a>
+</div>
+<footer>
+    <p>© 2026 The Fit Lab | Designed by Manish</p>
+</footer>
+<a href="https://wa.me/9636104024" class="whatsapp" target="_blank">
+    💬
+</a>
+<script src="script.js"></script>
+<button onclick="topFunction()" id="topBtn">⬆</button>
+
+<script>
+let mybutton = document.getElementById("topBtn");
+
+window.onscroll = function () {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+};
+
+function topFunction() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+</script>
+</body>
+<div id="loader">
+    <h1>The Fit Lab</h1>
+</div>
+</html>
